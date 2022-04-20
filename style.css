@@ -23,10 +23,26 @@ body {
   left: 0;
   right: 0;
 }
-.logo-img img {
-  padding-top: 10px;
-  height: 70px;
-  width: 70px;
+
+.logo-name {
+  position: static;
+  width: 77px;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
 .menu-button {
@@ -35,6 +51,16 @@ body {
   width: 70px;
   background-color: #3c3a39;
   color: white;
+  border: none;
+}
+
+.menu-button:hover,
+.menu-button:visited {
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  background-color: #3c3a39;
+  color: rgb(116, 116, 116);
   border: none;
 }
 
@@ -109,6 +135,11 @@ body {
 .social-icons {
   font-size: 25px;
   color: #ffffff;
+}
+.social-icons:hover,
+.social-icons:visited {
+  font-size: 30px;
+  color: #838282;
 }
 
 .background-img {
