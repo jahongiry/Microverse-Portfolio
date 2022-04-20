@@ -35,7 +35,8 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
+  text-decoration: none;
 }
 
 .menu-button {
@@ -45,6 +46,9 @@ body {
   background-color: #3c3a39;
   color: white;
   border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .menu-button:hover,
