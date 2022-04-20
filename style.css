@@ -1,24 +1,25 @@
 html {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .toolbar ul {
   display: flex;
   list-style: none;
-  height: 92px;
+  height: 80px;
   width: 383px;
   background: #3c3a39;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
   position: absolute;
   left: 0;
   right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo-name {
@@ -65,8 +66,8 @@ body {
   width: 375px;
   height: 498px;
   position: absolute;
-  left: 0px;
-  top: 92px;
+  left: 0;
+  top: 80px;
 }
 
 .introduction-name {
@@ -79,8 +80,7 @@ body {
   line-height: 64px;
   letter-spacing: 1px;
   color: #ff6b00;
-  margin-top: 12px;
-  margin-bottom: 14px;
+  margin: 12px 0;
 }
 
 .introduction-title {
@@ -111,7 +111,8 @@ body {
   line-height: 24px;
   color: white;
   flex: none;
-  margin: 12px 0px;
+  margin-top: 12px;
+  margin-bottom: 14px;
 }
 
 .bottom-nav ul {
