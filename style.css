@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.toolbar ul {
+  display: flex;
+  list-style: none;
+  height: 92px;
+  width: 375px;
+  background: #3c3a39;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img img {
+  padding-top: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.burger-icon {
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  background-color: #3c3a39;
+  color: white;
+  border: none;
+}
