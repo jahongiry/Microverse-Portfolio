@@ -1,19 +1,27 @@
+/*General CSS*/
 html {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   font-family: "Roboto";
 }
 
+/*Navbar section CSS*/
+
 .toolbar ul {
   display: flex;
   list-style: none;
   height: 92px;
-  width: 375px;
+  width: 383px;
   background: #3c3a39;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 .logo-img img {
   padding-top: 10px;
@@ -21,11 +29,90 @@ body {
   width: 70px;
 }
 
-.burger-icon {
+.menu-button {
   font-size: 30px;
   height: 70px;
   width: 70px;
   background-color: #3c3a39;
   color: white;
   border: none;
+}
+
+/*Headline section CSS*/
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background: #1c1a19;
+  width: 375px;
+  height: 550px;
+  position: absolute;
+  left: 0px;
+  top: 92px;
+}
+
+.introduction-name {
+  font-family: "Crete Round";
+  font-style: normal;
+  width: 327px;
+  height: 124px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 12px 0px;
+}
+
+.introduction-title {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.introduction-description {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.bottom-nav ul {
+  display: flex;
+  list-style: none;
+  background: #1c1a19;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.social-icons {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.background-img {
+  margin-top: -50px;
+  height: 300px;
+  width: auto;
 }
