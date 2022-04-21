@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.toolbar ul {
+  display: flex;
+  list-style: none;
+  height: 80px;
+  width: 383px;
+  background: #3c3a39;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo-name {
+  position: static;
+  width: 77px;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-button {
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  background-color: #3c3a39;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-button:hover,
+.menu-button:visited {
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  background-color: #3c3a39;
+  color: rgb(116, 116, 116);
+  border: none;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  background: #1c1a19;
+  width: 375px;
+  height: 498px;
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.introduction-name {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  width: 327px;
+  height: 124px;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  color: #ff6b00;
+  margin: 12px 0;
+}
+
+.introduction-title {
+  position: static;
+  width: 327px;
+  height: 27px;
+  left: 24px;
+  top: 256px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.introduction-description {
+  position: static;
+  width: 327px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  flex: none;
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+
+.bottom-nav ul {
+  display: flex;
+  list-style: none;
+  background: #1c1a19;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.social-icons {
+  font-size: 25px;
+  color: white;
+}
+
+.social-icons:hover,
+.social-icons:visited {
+  font-size: 30px;
+  color: rgba(131, 130, 130, 0.9);
+}
+
+.background-img {
+  margin-top: -70px;
+  height: 300px;
+  width: auto;
+}
