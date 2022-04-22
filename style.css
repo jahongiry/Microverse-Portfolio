@@ -78,7 +78,7 @@ body {
 }
 
 .introduction-name {
-  font-family: "Crete Round", sans-serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   width: 327px;
   height: 124px;
@@ -157,7 +157,7 @@ body {
   left: 0;
   top: 818px;
   width: 425px;
-  background: #e5e5e5;
+  background: white;
   height: auto;
 }
 
@@ -170,7 +170,7 @@ body {
   width: 327px;
   left: 0;
   top: 0;
-  font-family: "Crete Round", sans-serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -280,11 +280,12 @@ body {
 .art-paragraph {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: white;
   margin: 0;
+  margin-bottom: -10px;
 }
 
 .languages {
@@ -292,18 +293,38 @@ body {
   justify-content: space-between;
   padding-left: 0;
   margin-right: 50px;
+  margin-top: 0;
   height: 60px;
   text-align: center;
 }
 
 .second-programming {
   list-style: none;
-  padding-top: 6px;
+  padding-top: 8px;
   background: rgba(255, 255, 255, 0.24);
 }
 
+.second-programming a {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.second-programming:hover,
+.second-programming:active {
+  background: rgba(172, 172, 172, 0.24);
+}
+
 .long-button {
-  padding: 12px 114.3px;
+  padding: 12px 113.3px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .long-button:hover,
@@ -345,6 +366,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: hsl(220, 16%, 96%);
+  height: 87px;
 }
 
 .get-my-resume {
@@ -353,6 +375,14 @@ body {
   text-align: center;
   text-decoration: none;
   color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  height: 24px;
+  padding: 12px 10px;
+  margin-top: 66px;
 }
 
 .get-my-resume:hover,
@@ -363,9 +393,9 @@ body {
 
 .background-img2 {
   position: absolute;
-  width: 149px;
-  top: 4377px;
-  left: 276px;
+  width: 157px;
+  top: 4435px;
+  left: 268px;
   z-index: 999;
 }
 
@@ -388,7 +418,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: white;
-  margin: 12px;
+  margin: 97px 0 14px 12px;
 }
 
 .list-items {
@@ -407,5 +437,5 @@ body {
 }
 
 .rectangular {
-  margin-bottom: 10px;
+  margin-top: 76px;
 }
