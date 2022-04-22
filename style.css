@@ -258,9 +258,6 @@ body {
   color: rgba(255, 255, 255, 0.335);
 }
 
-#art-page {
-}
-
 .top-art-page {
   background-image: url(img/Mask\ Group.png);
   height: 327px;
@@ -316,5 +313,104 @@ body {
 }
 
 .last-art-page {
-  margin-bottom: 100px;
+  margin-bottom: 125px;
+}
+
+/*About me section*/
+.about-me-section {
+  display: grid;
+  grid-template-columns: 327px;
+  justify-content: center;
+  position: absolute;
+  width: 425px;
+  top: 4000px;
+  left: 0;
+  background: #1c1a19;
+}
+
+.about-me-heading {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 120px 0 24px 0;
+}
+
+.about-me-paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.get-my-resume {
+  background: #ff6b00;
+  width: 161px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.get-my-resume:hover,
+.get-my-resume:active {
+  color: #ff6b00;
+  background: #ffd3b3;
+}
+
+.background-img2 {
+  position: absolute;
+  width: 149px;
+  top: 4377px;
+  left: 276px;
+  z-index: 999;
+}
+
+.about-me-section hr {
+  border: 1px solid #ffffff;
+  width: 327px;
+  margin-top: 221px;
+}
+
+.heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .rectangular {
+  margin: 0 12px;
+} */
+
+.skills-headings {
+  font-family: "InaiMathi";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin: 12px;
+}
+
+.list-items {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  list-style: none;
+}
+
+.about-me-section ul {
+  padding-left: 0;
+}
+
+.rectangular {
+  margin-bottom: 10px;
 }
