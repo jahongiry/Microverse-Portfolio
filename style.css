@@ -405,12 +405,6 @@ body {
   margin-top: 221px;
 }
 
-.heading-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .skills-headings {
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
@@ -418,7 +412,13 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: white;
-  margin: 97px 0 14px 12px;
+  margin: 97px 0 0 0;
+  list-style: none;
+  text-align: center;
+}
+
+.skills-headings-second {
+  margin: 0;
 }
 
 .list-items {
@@ -430,10 +430,16 @@ body {
   text-align: center;
   color: white;
   list-style: none;
+  margin-top: 10px;
 }
 
 .about-me-section ul {
   padding-left: 0;
+}
+
+.rectangular-middle {
+  margin-right: 10px;
+  margin-bottom: 3px;
 }
 
 .rectangular {
