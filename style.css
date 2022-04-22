@@ -1,4 +1,4 @@
-/*Main settings*/
+/* Main settings */
 html {
   box-sizing: border-box;
 }
@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/*Nav-Toolbar*/
+/* Nav-Toolbar */
 .toolbar ul {
   display: flex;
   list-style: none;
@@ -63,7 +63,7 @@ body {
   border: none;
 }
 
-/*Headline section*/
+/* Headline section */
 .headline {
   display: flex;
   flex-direction: column;
@@ -147,7 +147,7 @@ body {
   width: auto;
 }
 
-/*Work section*/
+/* Work section */
 .work-section {
   display: grid;
   grid-template-columns: 327px;
@@ -168,9 +168,9 @@ body {
 .my-works {
   position: static;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  font-family: "Crete Round";
+  left: 0;
+  top: 0;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -184,7 +184,7 @@ body {
 }
 
 .multi-story-heading {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -194,7 +194,7 @@ body {
 }
 
 .story-description {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -228,7 +228,7 @@ body {
 
 .programming-boxes a {
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -241,14 +241,14 @@ body {
   width: 124px;
   height: 48px;
   background: #ff6b00;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   margin: 12px 0;
 }
@@ -268,22 +268,22 @@ body {
 }
 
 .art-heading {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: white;
   margin: 85px 0 0 0;
 }
 
 .art-paragraph {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: white;
   margin: 0;
 }
 
@@ -297,7 +297,6 @@ body {
 }
 
 .second-programming {
-  padding-top: 0;
   list-style: none;
   padding-top: 6px;
   background: rgba(255, 255, 255, 0.24);
@@ -316,7 +315,7 @@ body {
   margin-bottom: 125px;
 }
 
-/*About me section*/
+/* About me section */
 .about-me-section {
   display: grid;
   grid-template-columns: 327px;
@@ -329,7 +328,7 @@ body {
 }
 
 .about-me-heading {
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -340,12 +339,12 @@ body {
 }
 
 .about-me-paragraph {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f5f7;
+  color: hsl(220, 16%, 96%);
 }
 
 .get-my-resume {
@@ -371,7 +370,7 @@ body {
 }
 
 .about-me-section hr {
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   width: 327px;
   margin-top: 221px;
 }
@@ -382,28 +381,24 @@ body {
   justify-content: center;
 }
 
-/* .rectangular {
-  margin: 0 12px;
-} */
-
 .skills-headings {
-  font-family: "InaiMathi";
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: white;
   margin: 12px;
 }
 
 .list-items {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
-  color: #ffffff;
+  color: white;
   list-style: none;
 }
 
