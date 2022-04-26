@@ -454,8 +454,7 @@ body {
   max-height: 930px;
   height: auto;
   padding: 100px 24px 0px 24px;
-  background-color: #FFFF;
-  text-align: center;
+  background-color: #ffff;
 }
 
 .footer .footer-text {
@@ -464,6 +463,6 @@ body {
   line-height: 44px;
   text-align: center;
   margin-bottom: 36.5px;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
 }
