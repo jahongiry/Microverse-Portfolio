@@ -476,15 +476,16 @@ body {
   list-style: none;
 }
 
-.form-items input {
+.form-items {
   width: 400px;
   align-items: center;
   border: none;
   border-bottom: 1px solid #dbd8d7;
   height: 35px;
+  padding-left: 10px;
 }
 
-.form-items input::placeholder {
+.form-items ::placeholder {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -507,7 +508,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .get-in-touch {
@@ -524,6 +525,7 @@ body {
   border: none;
   color: white;
   margin-bottom: 115px;
+  align-self: center;
 }
 
 .get-in-touch:hover,
@@ -537,6 +539,8 @@ body {
   gap: 15px;
   height: 75px;
   align-items: center;
+  list-style: none;
+  padding: 0;
 }
 
 .icons a {
