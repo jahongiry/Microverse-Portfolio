@@ -322,14 +322,14 @@
         chat please get in touch.
       </h2>
       <form action="https://formspree.io/f/xpzbopvv" method="POST">
-        <ul>
+        <ul class="input-ul">
           <li class="form-items">
             <input
               type="text"
               name="name"
               id="name"
               class="name"
-              maxlength="20"
+              maxlength="30"
               placeholder="Full name"
               required
             />
@@ -337,26 +337,35 @@
           <li class="form-items">
             <input type="email" placeholder="Email address" required />
           </li>
-          <li class="form-items">
+          <li class="form-textarea">
             <textarea
               name="textarea"
               id="textarea"
-              cols="30"
-              rows="10"
               maxlength="500"
               placeholder="Enter your text here"
               required
             >
             </textarea>
           </li>
+          <li>
+            <button type="button" class="get-in-touch">Get in touch</button>
+          </li>
         </ul>
       </form>
       <hr />
       <div class="icons">
-        <ion-icon name="logo-github"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
-        <ion-icon name="logo-twitter"></ion-icon>
-        <ion-icon name="logo-whatsapp"></ion-icon>
+        <a href="#"
+          ><ion-icon class="icons-last" name="logo-github"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="icons-last" name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="icons-last" name="logo-twitter"></ion-icon
+        ></a>
+        <a href="#"
+          ><ion-icon class="icons-last" name="logo-whatsapp"></ion-icon
+        ></a>
       </div>
     </footer>
   </body>
