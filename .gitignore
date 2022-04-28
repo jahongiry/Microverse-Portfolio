@@ -1,6 +1,5 @@
-.stylelintrc.json
-package-lock.json
-package.json
 node_modules
-.hintrc 
-.DS_Store
+package.json
+.stylelintrc.json
+.hintrc
+package-lock.json

@@ -17,12 +17,20 @@ node_modules were ignored by .gitignore file
 
 To get a local copy up and running follow these simple example steps.
 
-## Authors
+1. Clone the repo
+   git clone https://github.com/jahongiry/Microverse-Portfolio.git
+2. Install the files in the .gitignore
 
-👤 **Author1**
+## Author
+
+👤 Jahongir Yusupov
 
 - GitHub: [https://github.com/jahongiry](https://github.com/jahongiry)
 - LinkedIn: [linkedin.com/in/jahongir-yusupov](linkedin.com/in/jahongir-yusupov)
+
+👤 Sirri Celles
+
+- GitHub: [https://github.com/SirriCelles](https://github.com/SirriCelles)
 
 ## 🤝 Contributing
 
