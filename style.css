@@ -450,7 +450,7 @@ body {
   position: absolute;
   top: 6200px;
   left: 0;
-  width: 375px;
+  max-width: 375px;
   max-height: 930px;
   height: auto;
   padding: 0 24px 0 24px;
@@ -477,7 +477,7 @@ body {
 }
 
 .form-items {
-  width: 400px;
+  max-width: 400px;
   align-items: center;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -498,7 +498,7 @@ body {
 #textarea {
   background: #fbf8f7;
   border: none;
-  width: 390px;
+  max-width: 390px;
   height: 114px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -512,7 +512,7 @@ body {
 }
 
 .get-in-touch {
-  width: 131px;
+  max-width: 131px;
   height: 48px;
   background: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -550,10 +550,28 @@ body {
 
 .icons-last {
   height: 30px;
-  width: 60px;
+  max-width: 60px;
 }
 
 .icons a:hover,
 .icons a:active {
   color: #2e384b;
+}
+
+@media (max-width: 26em) {
+  .footer {
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 22em) {
+  .footer {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 19em) {
+  .footer {
+    max-width: 320px;
+  }
 }
